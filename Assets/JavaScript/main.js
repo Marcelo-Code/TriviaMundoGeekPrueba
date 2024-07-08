@@ -1,4 +1,4 @@
-let cantidadPreguntas = 1;
+let cantidadPreguntas = 10;
 
 let data = [];
 let index = 0;
