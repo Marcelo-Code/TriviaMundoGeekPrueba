@@ -16,7 +16,7 @@
     position: absolute;
     top: 30vh;
     opacity: 0;
-    animation: conteo 10s linear 1;
+    animation: conteo 11s linear 1;
 }
 
 .contenedorConteo :nth-child(1) {

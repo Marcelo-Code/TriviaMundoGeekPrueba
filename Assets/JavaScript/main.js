@@ -208,4 +208,4 @@ document.addEventListener('DOMContentLoaded', function () {
 setTimeout(() => {
     startTimer();
     escogerPreguntas(index);
-}, 7000)
+}, 8000)
