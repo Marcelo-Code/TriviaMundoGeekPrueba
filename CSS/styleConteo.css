@@ -6,7 +6,7 @@
 .contenedorConteo {
     display: flex;
     justify-content: center;
-    font-size: 120px;
+    font-size: 100px;
     font-weight: bold;
     height: 100vh;
     width: 100vw;
