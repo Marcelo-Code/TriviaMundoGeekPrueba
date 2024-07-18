@@ -14,7 +14,7 @@ async function tomarIG() {
     nombreJugador = nombreJugador.toLowerCase();
     if (validarIG(nombreJugador)) {
 
-        //dataJson = await apiPeticionGET();
+        dataJson = await apiPeticionGET();
 
         dataJson.forEach(elemento => {
             if (elemento.nombre === nombreJugador) nombreJugadorepetido = true;

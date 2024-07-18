@@ -193,7 +193,7 @@ function oprimirBoton(i) {
             jugador.respuestasCorrectas = respuestasCorrectas;
             jugador.tiempo = difference;
 
-            //actualizarRanking(jugador);
+            actualizarRanking(jugador);
 
         } else {
 
