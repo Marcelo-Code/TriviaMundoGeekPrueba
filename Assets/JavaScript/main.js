@@ -1,4 +1,4 @@
-let cantidadPreguntas = 1;
+let cantidadPreguntas = 10;
 
 let data = [];
 let index = 0;
@@ -124,7 +124,21 @@ function oprimirBoton(i) {
                                     <br>
                                     <a class = "btnInicio" onclick = "cerrarVentana()">Salir</a>
                                 </div>
-                                <div class = "mensajeFin"> ¡¡Recordá visitarnos en nuestro local!!<br><br><br><br><br><br><br><br><br></div>
+
+                                <div class = "footer">
+                                    <div class = "mensajeFooter">¡¡Recordá visitarnos en nuestro local!!<br>
+                                        Belgrano 790, Arroyo Seco<br><br>
+                                    </div>
+                                    <div class = "lateralIzquierdo"></div>
+                                    <div class = "rotulo">
+                                        <br>
+                                        <span style ="font-family: 'Matsury'; font-size: 35px; line-height: 10px">Marcelo Feltes</span><br>
+                                        <span style ="font-family: 'Matsury'; font-size: 35px; line-height: 10px">Software Developer</span><br>
+                                        <span style ="font-family: 'Matsury'; font-size: 35px; line-height: 10px">💻</span><br>
+                                        <br><br><br><br><br>
+                                    </div>
+                                    <div class = "lateralDerecho"></div>
+                                </div>
                                 `;
 
             //Tiren papelitos!!

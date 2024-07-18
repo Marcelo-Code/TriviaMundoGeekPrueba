@@ -107,7 +107,7 @@ async function modificarRegistro() {
     let segundos = 0;
     ID = prompt("Ingresar la posición del jugador:");
 
-    dataJson = await apiPeticionGETGET();
+    dataJson = await apiPeticionGET();
 
     jugador = dataJson[ID - 1];
     confirmar = confirm("¿modificar datos de " + jugador.nombre + " en posición " + jugador.posicion + "?");
